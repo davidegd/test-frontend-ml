@@ -1,0 +1,13 @@
+@import "../custom.scss";
+
+.layout__container {
+  height: 100vh;
+  overflow: auto;
+  background-color: $light-gray;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
